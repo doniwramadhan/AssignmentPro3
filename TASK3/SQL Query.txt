@@ -1,0 +1,5 @@
+create table login (string username, string password);
+//this is dummy table it used for login to application
+
+create table produk (id_produk int(10) primary key auto_increment, kd_produk varchar(300), nm_produk varchar(300),
+harga_produk varchar(300), qty varchar(300));
